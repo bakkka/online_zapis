@@ -1,0 +1,384 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(160.19% 270.7% at 16.98% -57.92%, #827FFE 0%, #F8D7DA 97.92%, rgba(255, 255, 255, 0) 100%);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  height: 87%;
+  width: 83%;
+  display: flex;
+}
+
+.personalData {
+  width: 29%;
+  height: 100%;
+  background: #F5F5F5;
+  border: 2px solid #FFFFFF;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.bio {
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.key {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.value {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.description {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.buttons {
+  width: 43%;
+  margin-bottom: 10%;
+}
+
+.save {
+  width: 100%;
+  height: 40%;
+  background: #827FFE;
+  border-radius: 7px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.exit {
+  width: 100%;
+  height: 40%;
+  background: #AF3743;
+  border-radius: 7px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.back {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #827FFE;
+  text-decoration: #827FFE underline;
+  cursor: pointer;
+  text-align: center;
+}
+
+.right {
+  margin-left: 30px;
+  width: 69%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.favourites {
+  width: 100%;
+  height: 26%;
+  background: #F5F5F5;
+  border-radius: 15px;
+}
+
+.services {
+  width: 100%;
+  height: 64%;
+  background: #F5F5F5;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editWindow {
+  width: 100%;
+  height: 100%;
+  background: #F5F5F5;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editTitle {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #000000;
+}
+
+.editForm {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 32px;
+  line-height: 43px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  color: #000000;
+}
+
+.editFormActive {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  color: #827FFE;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.editWindow_content {
+  width: 88%;
+  height: 93%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editWindow_main {
+  width: 70%;
+}
+
+.editSave {
+  width: 200px;
+  height: 50px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #827FFE;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  position: absolute;
+  top: 86%;
+}
+
+.editBack {
+  width: 200px;
+  height: 50px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #827FFE;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6%;
+}
+
+.servicesContent {
+  width: 89%;
+}
+
+.activeTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.teamPhoto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+}
+.teamPhoto img {
+  width: 200px;
+  height: 200px;
+}
+
+.teamPhotoEdit {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.teamPhotoEdit label {
+  display: flex;
+  cursor: pointer;
+  height: 200px;
+  width: 200px;
+  z-index: 11;
+}
+.teamPhotoEdit input {
+  display: none;
+  z-index: 13;
+  height: 200px;
+  width: 200px;
+}
+.teamPhotoEdit img {
+  width: 200px;
+  height: 200px;
+}
+
+.teamPhotoEdit:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+.teamPhotoEdit:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../../images/Group 197.png") no-repeat center center;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.4s ease;
+}
+
+.teamPhotoEdit:hover:before {
+  opacity: 1;
+}
+
+.teamPhotoEdit:hover:after {
+  opacity: 1;
+}
+
+.head {
+  display: flex;
+}
+.head p {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  color: #000000;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+
+.block {
+  display: flex;
+  margin-bottom: 4%;
+}
+.block img {
+  position: absolute;
+}
+.block textarea {
+  width: 534px;
+  height: 45px;
+  background: #F5F5F5;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin-left: 18%;
+  margin-top: 4%;
+  padding: 1%;
+}
+.block input {
+  margin-left: 18%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  padding-bottom: -2%;
+  height: 42px;
+  width: 534px;
+}
+.block p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  color: #FFFFFF;
+  position: absolute;
+  margin-top: 0.3%;
+  margin-left: 1.2%;
+  z-index: 11;
+}
+
+.block_title {
+  margin-left: 95px;
+}
+
+.tagsBlock {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 18%;
+}
+
+.plus {
+  position: absolute;
+  right: 14.5%;
+  top: 70.5%;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background: url("../../images/Group 27.png") no-repeat;
+}
+
+/*# sourceMappingURL=TeamProfilePage.module.css.map */

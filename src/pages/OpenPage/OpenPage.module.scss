@@ -1,0 +1,240 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper{
+  width: 100%;
+  background: #a9a7fd;
+  height: 100vh;
+}
+.rectangle{
+  position: fixed;
+  overflow: visible;
+  width: 2581.37px;
+  height: 1259.64px;
+  background: white;
+  transform: rotate(-44.2deg);
+  left: 330px;
+
+}
+.content{
+  height: 348px;
+  max-width: 822px;
+  margin: 10% auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content_header{
+  z-index: 11;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 91px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.content_description{
+  z-index: 11;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.button{
+  z-index: 11;
+  background: #a9a7fd ;
+  border: 3px solid #a9a7fd ;
+  border-radius: 50px;
+  width: 260px;
+  height: 60px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.logo{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  margin-left: 33px;
+}
+.login{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  cursor: pointer;
+  margin-left: 20px;
+  text-decoration: underline 1px solid black;
+}
+.right{
+  z-index: 11;
+  display: flex;
+  margin-right: 33px;
+  .button{
+    height: 40px;
+  }
+}
+.searchContent{
+  height: 755px;
+  width: 1274px;
+  display: flex;
+  flex-direction: column;
+  margin: 5% auto;
+}
+.searchBar{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 60px;
+  z-index: 11;
+  display: flex;
+  justify-content: space-between;
+  p{
+    cursor: pointer;
+  }
+  input{
+    width: 80%;
+    background: #F5F5F5;
+    height: 100%;
+    border: none;
+    padding-left: 10px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    position: relative;
+  }
+  input::placeholder{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #797474;
+  }
+  select{
+    width: 20%;
+    border-bottom: none;
+    height: 52px;
+    background: #F5F5F5;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+  }
+}
+.searchedTeam{
+  width: 100%;
+  height: 645px;
+  z-index: 11 ;
+}
+.teamBlock{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  background: #F5F5F5;
+}
+.teamBio{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.teamHead{
+  display: flex;
+}
+.teamHead p:nth-child(1){
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  margin-right: 25px;
+}
+.teamHead p:nth-child(2){
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 350;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  margin-top: 28px;
+}
+.teamDescription{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+.loop{
+  position: absolute;
+  background: url("../../images/Group 2.png");
+  width: 31px;
+  height: 30px;
+  z-index: 20;
+  left: 67%;
+  top:14.7%
+}
+.teamPhoto{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  margin-left: 10px;
+  img{
+    margin-left: 8%;
+    margin-top: 7%;
+    width: 124px;
+    height: 124px;
+  }
+}
+.teamNotLiked{
+  cursor: pointer;
+  background: url("../../images/Vector (Stroke).png");
+  width: 30px;
+  height: 30px;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+.teamLiked{
+  cursor: pointer;
+  background:url("../../images/heart.png");
+  width: 30px;
+  height: 30px;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+.nothing{
+  z-index: 11;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 350;
+  font-size: 36px;
+  line-height: 48px;
+  margin: 10% auto;
+  color: #000000;
+}

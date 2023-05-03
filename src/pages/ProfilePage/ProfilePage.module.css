@@ -1,0 +1,353 @@
+body {
+  -webkit-overflow-scrolling: touch;
+}
+body ::-webkit-scrollbar {
+  background: transparent;
+  height: 10px;
+}
+body ::-webkit-scrollbar-thumb {
+  background: #827FFE;
+  border-radius: 10px;
+  height: 10px;
+  max-width: 10%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(160.19% 270.7% at 16.98% -57.92%, #827FFE 0%, #F8D7DA 97.92%, rgba(255, 255, 255, 0) 100%);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  height: 87%;
+  width: 83%;
+  display: flex;
+}
+
+.personalData {
+  width: 29%;
+  height: 100%;
+  background: #F5F5F5;
+  border: 2px solid #FFFFFF;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  width: 82%;
+  height: 6%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.form p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.form input {
+  background: #F5F5F5;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  padding: 11px;
+  width: 87%;
+  height: 53%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.change {
+  background: #F5F5F5;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  padding: 11px;
+  width: 110%;
+  height: 8%;
+  margin-bottom: 25px;
+}
+
+.changeRepeat {
+  background: #F5F5F5;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  padding: 11px;
+  width: 110%;
+  height: 6%;
+  margin-bottom: 25px;
+}
+
+.change::placeholder {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #888686;
+}
+
+.form select {
+  background: #F5F5F5;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  padding: 11px;
+  padding-left: 5px;
+  width: 93%;
+  height: 110%;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.changeForm {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #827FFE;
+  cursor: pointer;
+  justify-content: center;
+  margin-left: -52%;
+  margin-top: 7%;
+}
+
+.buttons {
+  width: 43%;
+}
+
+.save {
+  width: 100%;
+  height: 40%;
+  background: #827FFE;
+  border-radius: 7px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.exit {
+  width: 100%;
+  height: 40%;
+  background: #AF3743;
+  border-radius: 7px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.back {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #827FFE;
+  text-decoration: #827FFE underline;
+  cursor: pointer;
+  text-align: center;
+}
+
+.right {
+  margin-left: 30px;
+  width: 69%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.favourites {
+  width: 100%;
+  height: 26%;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x proximity;
+  padding-bottom: 10px;
+  scroll-behavior: smooth;
+}
+
+.services {
+  width: 100%;
+  height: 64%;
+  background: #F5F5F5;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicesContent {
+  width: 89%;
+}
+
+.activeTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.password_control {
+  top: 56%;
+  left: 27%;
+  cursor: pointer;
+  width: 24px;
+  height: 18px;
+  position: absolute;
+  background: url("../../images/Group 55.png") no-repeat;
+}
+
+.password_control_view {
+  top: 56%;
+  left: 27%;
+  width: 24px;
+  height: 18px;
+  position: absolute;
+  background: url("../../images/Group 56.png") no-repeat;
+  cursor: pointer;
+}
+
+.error {
+  z-index: 11;
+  position: absolute;
+  right: 2%;
+  padding: 5px;
+  top: 4%;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.4s;
+  background: #F8D7DA;
+  border: 1px solid #F5C2C7;
+  border-radius: 3px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #842029;
+}
+
+.errorHide {
+  z-index: 11;
+  position: absolute;
+  right: -45%;
+  padding: 5px;
+  top: 4%;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.4s;
+  background: #F8D7DA;
+  border: 1px solid #F5C2C7;
+  border-radius: 3px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #842029;
+  transition: left 2s ease-in-out;
+}
+
+.card {
+  z-index: 11;
+  position: relative;
+  width: 465px;
+  height: 100%;
+  background: white;
+  border-radius: 10px;
+  margin-right: 20px;
+  scroll-snap-type: x proximity;
+}
+.card button {
+  position: absolute;
+  left: 65%;
+  top: 80%;
+  width: 150px;
+  height: 30px;
+  background: #827FFE;
+  border-radius: 7px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.cardInfo {
+  display: flex;
+  width: 95%;
+  margin: 5% auto;
+  max-height: 150px;
+  z-index: 11;
+}
+.cardInfo img {
+  width: 150px;
+  height: 150px;
+  margin-right: 5%;
+  margin-top: 6%;
+}
+
+.heart {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 90%;
+  top: 5%;
+  cursor: pointer;
+}
+
+.cardText {
+  z-index: 11;
+  display: flex;
+  flex-direction: column;
+}
+
+.cartTitle {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.cardDescription {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+/*# sourceMappingURL=ProfilePage.module.css.map */
